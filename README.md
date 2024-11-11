@@ -26,11 +26,11 @@ The strategy assumes stock prices are influenced by market factors, represented 
 ## 4. Signal Generation
 Trading signals are generated based on z-scores calculated from residuals:
 •	Entry Thresholds:
-o	Long position: Zt<−1.25Z_t < -1.25Zt<−1.25
-o	Short position: Zt>1.25Z_t > 1.25Zt>1.25
+o	Long position: Zt<−1.25 
+o	Short position: Zt>1.25
 •	Exit Thresholds:
-o	Close long: Zt≥−0.5Z_t \geq -0.5Zt≥−0.5
-o	Close short: Zt≤0.75Z_t \leq 0.75Zt≤0.75
+o	Close long: Zt≥−0.5
+o	Close short: Zt≤0.75
 
 ## 5. Data and Preprocessing
 •	Data Sources:
