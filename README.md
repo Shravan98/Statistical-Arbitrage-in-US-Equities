@@ -46,3 +46,7 @@ Using the optimal thresholds, the strategy achieved:
 •	Annual Return: 13.44%
 •	Sharpe Ratio: 1.98
 •	Max Drawdown: -6.6%
+
+## Code
+1.  We ran the datacleaning.ipynb file to clean the raw data we had for S&P 500 stocks and Sector ETFs
+2.  Startegy.ipynb has the final code to run the stats arb strategy
